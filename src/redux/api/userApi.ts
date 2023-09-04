@@ -18,13 +18,13 @@ const baseQuery = fetchBaseQuery({
 const userApi = createApi({
 	baseQuery,
 	endpoints: (build) => ({
-		getPosts: build.query<any, void>({
+		getUsers: build.query<any, void>({
 			query: () => '/user',
 			transformResponse: (res: any) => res.data,
 		}),
 	}),
 })
 
-export const { useGetPostsQuery, useLazyGetPostsQuery } = userApi
+export const { useGetUsersQuery, useLazyGetUsersQuery } = userApi
 
 export default userApi

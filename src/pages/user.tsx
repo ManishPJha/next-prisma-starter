@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 
-import { useGetPostsQuery } from '@/redux/api/userApi'
+import { useGetUsersQuery } from '@/redux/api/userApi'
 
-const user = () => {
-	const { isLoading, isFetching, error, data } = useGetPostsQuery()
+const User = () => {
+	const { isLoading, isFetching, error, data } = useGetUsersQuery()
 
 	useEffect(() => {
 		if (!isLoading && error) {
@@ -19,4 +19,4 @@ const user = () => {
 	return <div>user</div>
 }
 
-export default user
+export default User
