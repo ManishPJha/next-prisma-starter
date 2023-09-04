@@ -90,7 +90,7 @@ next-prisma-starter/
 
 ## Documentation
 
-For more detailed documentation on how to use Next-Prisma-Starter and its features, refer to the [Wiki](https://github.com/your-username/next-prisma-starter/wiki).
+For more detailed documentation on how to use Next-Prisma-Starter and its features, refer to the [Wiki](https://github.com/ManishPJha/next-prisma-starter/wiki).
 
 ## License
 
