@@ -101,7 +101,3 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 Contributions are welcome! If you have suggestions, bug reports, or want to contribute to this project, please open an issue or create a pull request.
 
 Happy coding with Next-Prisma-Starter! 🚀
-
----
-
-_Disclaimer: This README is a template and should be customized to suit your specific project's needs._
