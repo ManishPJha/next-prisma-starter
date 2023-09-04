@@ -83,7 +83,6 @@ next-prisma-starter/
 │   ├── styles/
 │   ├── types/
 │   └── utils/
-|
 ├── ...
 ├── package.json
 ├── tsconfig.json
